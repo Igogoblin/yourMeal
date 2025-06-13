@@ -1,1 +1,14 @@
+@import "tailwindcss";
 
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+:root {
+  --font-family: "Nunito", sans-serif;
+  --bg-white: #ffffff;
+  --bg-black: #000000;
+  --bg-main: #ffab08;
+  --bg-second: #ff7020;
+  --bg-zinc-100: #f9f9f9;
+  --bg-stone-50: #f2f2f3;
+}
